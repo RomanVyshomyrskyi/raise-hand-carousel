@@ -1,0 +1,17 @@
+{
+    "name": "raise-hand-carousel",
+    "title": "Raise Hand Carousel",
+    "description": "Allows players to raise hands and lets the GM manage a drag‑and‑drop carousel of raised characters.",
+    "version": "1.0.0",
+    "author": "Voron",
+    "minimumCoreVersion": "0.8.9",
+    "compatibleCoreVersion": "1.0.0",
+    "scripts": ["main.js"],
+    "styles": ["styles/raise-hand-carousel.css"],
+    "templates": ["templates/carousel.hbs"],
+    "macros": [
+    {"name": "Raise Hand", "type": "script", "path": "macros/raise-hand.js"}
+    ],
+    "url": "",
+    "manifest": ""
+}

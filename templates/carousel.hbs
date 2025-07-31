@@ -1,0 +1,13 @@
+<div id="hand-carousel">
+  {{#each users}}
+    <div class="entry" data-user-id="{{this.id}}">
+      <img src="{{this.avatar}}" title="{{this.name}}">
+      <span>{{this.name}}</span>
+      <div class="controls">
+        <button class="move-up" title="Move Up">⬆️</button>
+        <button class="move-down" title="Move Down">⬇️</button>
+        <button class="remove" title="Remove">❌</button>
+      </div>
+    </div>
+  {{/each}}
+</div>
