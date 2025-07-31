@@ -13,5 +13,5 @@
     { "name": "Raise Hand", "type": "script", "path": "macros/raise-hand.js" }
   ],
   "url": "https://github.com/RomanVyshomyrskyi/raise-hand-carousel",
-  "manifest": "https://github.com/RomanVyshomyrskyi/raise-hand-carousel/blob/master/module.json"
+  "manifest": "https://raw.githubusercontent.com/RomanVyshomyrskyi/raise-hand-carousel/master/module.json"
 }
